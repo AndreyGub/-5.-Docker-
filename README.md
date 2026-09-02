@@ -37,6 +37,17 @@ See 'snap info docker' for additional versions.
 3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker, с помощью venv. (Mysql БД можно запустить в docker run).
 4. (Необязательная часть, *) Изучите код приложения и добавьте управление названием таблицы через ENV переменную.
 ---
+## Ответ: 
+- 1. <img width="1323" height="625" alt="image" src="https://github.com/user-attachments/assets/9184a9b1-9ce7-4f2b-bdb3-67e4125880c4" />
+- 2. <img width="798" height="293" alt="image" src="https://github.com/user-attachments/assets/01a4339b-a4e7-40e8-930d-ec484185bad6" />
+ - <img width="781" height="402" alt="image" src="https://github.com/user-attachments/assets/45b0fb63-7ff9-4c40-ab46-d21a419c9515" />
+ - Проверка созданных образов
+docker images | grep python-app
+<img width="840" height="91" alt="image" src="https://github.com/user-attachments/assets/9e027b24-0f46-4a2e-87fd-5281e6f80c97" />
+ - тестируйтем корректность сборки 2.1 Используйте multistage сборку вместо single stage
+ - Размер образа должен быть минимальным так каак   multistage сборке <img width="827" height="106" alt="image" src="https://github.com/user-attachments/assets/1e852d53-e371-491e-8fad-3add74559980" />
+- https://github.com/AndreyGub/shvirtd-example-python/tree/main
+- 
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
