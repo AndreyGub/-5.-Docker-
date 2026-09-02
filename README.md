@@ -19,6 +19,8 @@ See 'snap info docker' for additional versions.
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 ---
 ## Ответ: 
+<img width="624" height="91" alt="image" src="https://github.com/user-attachments/assets/de234bf3-d983-4869-96dd-27fcf8d3b6d9" />
+
 <img width="699" height="105" alt="image" src="https://github.com/user-attachments/assets/4366f389-0d1d-4ef5-9cb2-24dc613072e4" />
 ---
 
