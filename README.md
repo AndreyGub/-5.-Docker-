@@ -60,8 +60,8 @@ docker images | grep python-app
 5. В качестве ответа приложите отчет сканирования.
 ---
 ## Ответ: 
-- 1.   <img width="495" height="121" alt="image" src="https://github.com/user-attachments/assets/1a140165-c886-4e52-8985-80600a0f37b3" />
-- 2. <img width="958" height="605" alt="image" src="https://github.com/user-attachments/assets/f8debad6-1016-482e-bcaa-a7151b110c0e" />
+- 1.    <img width="495" height="121" alt="image" src="https://github.com/user-attachments/assets/1a140165-c886-4e52-8985-80600a0f37b3" />
+- 2.  <img width="958" height="605" alt="image" src="https://github.com/user-attachments/assets/f8debad6-1016-482e-bcaa-a7151b110c0e" />
 -  <img width="627" height="77" alt="image" src="https://github.com/user-attachments/assets/624a07d3-d833-439c-bcd3-964ff011f2e1" />
 - <img width="1349" height="488" alt="image" src="https://github.com/user-attachments/assets/97785cf0-972a-4091-b116-875d63701db1" />
 
