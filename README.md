@@ -97,6 +97,16 @@ docker images | grep python-app
 4. Зайдите на сайт проверки http подключений, например(или аналогичный): ```https://check-host.net/check-http``` и запустите проверку вашего сервиса ```http://<внешний_IP-адрес_вашей_ВМ>:8090```. Таким образом трафик будет направлен в ingress-proxy. Трафик должен пройти через цепочки: Пользователь → Internet → Nginx → HAProxy → FastAPI(запись в БД) → HAProxy → Nginx → Internet → Пользователь
 5. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
 6. Повторите SQL-запрос на сервере и приложите скриншот и ссылку на fork.
+## Ответ:
+
+<img width="1076" height="678" alt="image" src="https://github.com/user-attachments/assets/d424b0bd-8fef-4bf7-b2bb-cbafa35152ae" />
+
+
+<img width="1206" height="709" alt="image" src="https://github.com/user-attachments/assets/03fef397-a154-41b2-931f-5e44893fc407" />
+
+https://github.com/AndreyGub/shvirtd-example-python.git
+
+
 
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
