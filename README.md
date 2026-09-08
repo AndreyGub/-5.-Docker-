@@ -60,8 +60,8 @@ docker images | grep python-app
 5. В качестве ответа приложите отчет сканирования.
 ---
 ## Ответ: 
-- 1.    <img width="495" height="121" alt="image" src="https://github.com/user-attachments/assets/1a140165-c886-4e52-8985-80600a0f37b3" />
-- 2.  <img width="958" height="605" alt="image" src="https://github.com/user-attachments/assets/f8debad6-1016-482e-bcaa-a7151b110c0e" />
+  1.    <img width="495" height="121" alt="image" src="https://github.com/user-attachments/assets/1a140165-c886-4e52-8985-80600a0f37b3" />
+  2.  <img width="958" height="605" alt="image" src="https://github.com/user-attachments/assets/f8debad6-1016-482e-bcaa-a7151b110c0e" />
 -  <img width="627" height="77" alt="image" src="https://github.com/user-attachments/assets/624a07d3-d833-439c-bcd3-964ff011f2e1" />
 - <img width="1349" height="488" alt="image" src="https://github.com/user-attachments/assets/97785cf0-972a-4091-b116-875d63701db1" />
 
@@ -81,6 +81,14 @@ docker images | grep python-app
 5. Подключитесь к БД mysql с помощью команды ```docker exec -ti <имя_контейнера> mysql -uroot -p<пароль root-пользователя>```(обратите внимание что между ключем -u и логином root нет пробела. это важно!!! тоже самое с паролем) . Введите последовательно команды (не забываем в конце символ ; ): ```show databases; use <имя вашей базы данных(по-умолчанию virtd, как это указано в .env)>; show tables; SELECT * from requests LIMIT 10;```. Примечание: таблица в БД создается после первого поступившего запроса к приложению.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
+
+## Ответ: 
+1.  <img width="779" height="643" alt="image" src="https://github.com/user-attachments/assets/d1bbbcc7-33bd-438b-b948-bc80658970c0" />
+2. <img width="660" height="59" alt="image" src="https://github.com/user-attachments/assets/4d71a219-d1e0-4e27-99da-2ab2566ddf11" />
+
+3. - Подключаемся к mysql <img width="771" height="226" alt="image" src="https://github.com/user-attachments/assets/dc0a2567-d046-44dd-bd5a-c101ac8bd2ae" />
+   - <img width="744" height="696" alt="image" src="https://github.com/user-attachments/assets/73dd415a-ba3c-47b4-971b-82f211aee3e7" />
+
 
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
